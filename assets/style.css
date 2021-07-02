@@ -21,13 +21,16 @@
 
   h2 {
       font-weight: bold;
-      font-size: 40px;
+      font-size: 60px;
+      text-align: center;
+      margin: 20px;
   }
+
   /*header*/
 
   header {
     padding: 20px 35px;
-    background-color: #000;
+    background-color:rgba(0,0,0,0);;
     display: flexbox;
     display:  flex;
     justify-content: space-between;
@@ -75,7 +78,7 @@
     width: 400px;
     height: 400px;
     background: url("./images/hero.jpg") no-repeat;
-    margin: 70px auto 70px auto;
+    margin: 70px auto 200px auto;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
@@ -91,11 +94,23 @@
     background-size: contain;
 }
   
-  .primary-heading{
-      text-align: center;
+/*about-me section*/
+
+
+  #about-me {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-bottom: 60px;
+  }
+
+  #about-me p {
       font-weight: bold;
-      font-size: larger;
-    
+      line-height:1.6;
+      font-size: 40px;
+  }
+  #about-me span {
+      color: #eab676;
   }
 
 
