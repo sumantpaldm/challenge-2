@@ -1,0 +1,325 @@
+/*general styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:#000 ;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fffef4;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    font-family: papyrus,fantasy, arial;
+    text-decoration: underline;
+  }
+  h1 :hover{
+      color: #eab676;
+  }
+
+  h2 {
+      font-weight: bold;
+      font-size: 60px;
+      text-align: center;
+      margin: 20px;
+  }
+
+
+
+
+
+
+  /*header*/
+
+
+
+
+
+
+
+
+  header {
+    padding: 20px 35px;
+    background-color:rgba(0,0,0,0);;
+    display: flexbox;
+    display:  flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+
+
+  header a {
+    text-decoration: none;
+    color: #fffef4;
+  }
+
+  header nav {
+    margin: 5px 0;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 35px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+  }
+
+  header nav ul li a:hover {
+    font-size: 2vw ;
+    font-weight: bolder;
+    color: #eab676;
+    text-shadow: none;
+  }
+
+
+
+
+
+  /*avatar*/
+
+
+
+
+
+
+
+  .avatar {
+    width: 400px;
+    height: 400px;
+    background: url("./images/hero.jpg") no-repeat;
+    margin: 70px auto 200px auto;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: solid 8px #eab676;
+    display: flex;
+    flex-wrap: wrap;
+}
+.avatar:hover {
+    background: url("./images/hover.jpg") no-repeat;
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
+  
+
+
+
+
+
+/*about-me section*/
+
+
+
+
+
+
+
+  #about-me {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-bottom: 150px;
+  }
+
+  #about-me p {
+      font-weight: bold;
+      line-height:1.6;
+      font-size: 40px;
+  }
+  #about-me span {
+      color: #eab676;
+  }
+   
+
+
+
+  /*work section*/
+
+
+
+
+
+
+  #work {
+      margin-bottom: 80px;
+  }
+  #work h2 {
+    color: #eab676;
+}
+  .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      row-gap: 40px;
+
+ }
+  .run-buddy {
+       order: -1;
+       flex: 1 0 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 50px;
+       flex-direction: column; 
+  }
+ 
+  .run-buddy a img{
+      width: 500px;
+      border-radius: 50%;
+  }
+  .run-buddy a {
+    width: auto;
+  }
+  .projects img {
+      border-radius: 50%;
+      border: solid 5px #eab676;
+  }
+
+  .place1, .place2, .place3 {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .projects p {
+      font-size: 40px;
+  }
+
+
+
+
+
+  /*contact section*/
+
+
+
+
+
+
+ #contact {
+     margin-top: 80px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ .address {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .address p {
+     font-size: 25px;
+ }
+
+ #contact a {
+     text-decoration: none;
+     color: #eab676;
+ }
+  
+
+
+
+
+
+ @media screen and (max-width: 980px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+ }
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+    #contact img {
+     width: 50%;
+     height: 100%;
+    }
+
+    .address {
+      justify-content: space-around;
+    }
+    .address p {
+      font-size: 20px;
+    }
+ }
+
+
+
+
+
+
+ @media screen and (max-width: 575px){
+   h2 {
+     font-size: 50px;
+   }
+   #about-me p {
+     font-size: 30px;
+   }
+   #contact img{
+     width: 40%;
+   }
+   #contact{
+     justify-content:center;
+     align-items: center;
+   }
+   .address p{
+     font-size: 14px ;
+   }
+   .address{
+     justify-content: left;
+   }
+   .phone-img{
+     width: 50%;
+   }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
