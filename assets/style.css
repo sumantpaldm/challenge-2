@@ -14,8 +14,12 @@
     margin: 0;
     font-family: papyrus,fantasy, arial;
     text-decoration: underline;
-   
   }
+  h1 :hover{
+      color: #eab676;
+  }
+
+  
   /*header*/
 
   header {
@@ -30,7 +34,8 @@
     top: 0;
     z-index: 9999;
   }
-  
+
+
   header a {
     text-decoration: none;
     color: #fffef4;
@@ -55,8 +60,38 @@
   }
 
   header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
-    border-radius: 15px;
+    font-size: 2.5vw ;
+    font-weight: bolder;
+    color: #eab676;
     text-shadow: none;
   }
+
+  /*avatar*/
+  .avatar{
+      margin: 80px;
+  }
+
+.img {
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      border: solid 5px #eab676;
+  }
+  .img :hover{
+      background-image: url(./images/hover.jpg);
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+      border: solid 5px #eab676;
+
+  }
+
+
+
+
+
+
