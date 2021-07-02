@@ -114,6 +114,9 @@
   }
    
   /*work section*/
+  #work {
+      margin-bottom: 80px;
+  }
   #work h2 {
     color: #eab676;
 }
@@ -158,6 +161,25 @@
       font-size: 40px;
   }
 
+  /*contact section*/
+ #contact {
+     margin-top: 80px;
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+ .address {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+ }
+ .address p {
+     font-size: 25px;
+ }
+ #contact a {
+     text-decoration: none;
+     color: #eab676;
+ }
   
 
 
