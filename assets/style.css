@@ -19,7 +19,10 @@
       color: #eab676;
   }
 
-  
+  h2 {
+      font-weight: bold;
+      font-size: 40px;
+  }
   /*header*/
 
   header {
@@ -42,7 +45,7 @@
   }
 
   header nav {
-    margin: 7px 0;
+    margin: 5px 0;
   }
 
   header nav ul {
@@ -60,35 +63,43 @@
   }
 
   header nav ul li a:hover {
-    font-size: 2.5vw ;
+    font-size: 2vw ;
     font-weight: bolder;
     color: #eab676;
     text-shadow: none;
   }
 
   /*avatar*/
-  .avatar{
-      margin: 80px;
+
+  .avatar {
+    width: 400px;
+    height: 400px;
+    background: url("./images/hero.jpg") no-repeat;
+    margin: 70px auto 70px auto;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    border: solid 8px #eab676;
+    display: flex;
+    flex-wrap: wrap;
+}
+.avatar:hover {
+    background: url("./images/hover.jpg") no-repeat;
+    width: 400px;
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+}
+  
+  .primary-heading{
+      text-align: center;
+      font-weight: bold;
+      font-size: larger;
+    
   }
 
-.img {
-      border-radius: 50%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 30%;
-      border: solid 5px #eab676;
-  }
-  .img :hover{
-      background-image: url(./images/hover.jpg);
-      border-radius: 50%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 30%;
-      border: solid 5px #eab676;
 
-  }
+
 
 
 
