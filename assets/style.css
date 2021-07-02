@@ -1,3 +1,4 @@
+/*general styles*/
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +27,19 @@
       margin: 20px;
   }
 
+
+
+
+
+
   /*header*/
+
+
+
+
+
+
+
 
   header {
     padding: 20px 35px;
@@ -72,7 +85,17 @@
     text-shadow: none;
   }
 
+
+
+
+
   /*avatar*/
+
+
+
+
+
+
 
   .avatar {
     width: 400px;
@@ -94,7 +117,17 @@
     background-size: contain;
 }
   
+
+
+
+
+
 /*about-me section*/
+
+
+
+
+
 
 
   #about-me {
@@ -113,7 +146,16 @@
       color: #eab676;
   }
    
+
+
+
   /*work section*/
+
+
+
+
+
+
   #work {
       margin-bottom: 80px;
   }
@@ -136,16 +178,15 @@
        align-items: center;
        margin-top: 50px;
        flex-direction: column; 
-       
   }
  
   .run-buddy a img{
-      width: auto;
-      border-radius: 30%;
+      width: 500px;
+      border-radius: 50%;
   }
   .run-buddy a {
     width: auto;
-}
+  }
   .projects img {
       border-radius: 50%;
       border: solid 5px #eab676;
@@ -161,7 +202,17 @@
       font-size: 40px;
   }
 
+
+
+
+
   /*contact section*/
+
+
+
+
+
+
  #contact {
      margin-top: 80px;
      display: flex;
@@ -176,11 +227,93 @@
  .address p {
      font-size: 25px;
  }
+
  #contact a {
      text-decoration: none;
      color: #eab676;
  }
   
+
+
+
+
+
+ @media screen and (max-width: 980px) {
+
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+ }
+
+
+
+
+
+ @media screen and (max-width: 768px) {
+    #contact img {
+     width: 50%;
+     height: 100%;
+    }
+
+    .address {
+      justify-content: space-around;
+    }
+    .address p {
+      font-size: 20px;
+    }
+ }
+
+
+
+
+
+
+ @media screen and (max-width: 575px){
+   h2 {
+     font-size: 50px;
+   }
+   #about-me p {
+     font-size: 30px;
+   }
+   #contact img{
+     width: 40%;
+   }
+   #contact{
+     justify-content:center;
+     align-items: center;
+   }
+   .address p{
+     font-size: 14px ;
+   }
+   .address{
+     justify-content: left;
+   }
+   .phone-img{
+     width: 50%;
+   }
+  }
+  
+
+
+
+
+
 
 
 
