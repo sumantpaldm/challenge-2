@@ -8,7 +8,7 @@
 * CSS
 ## Screenshot
 
-![screenshot](/images/screenshot.jpg)
+![screenshot](./assets)
 
 ## URL
 https://github.com/sumantpaldm/challenge-2.git
